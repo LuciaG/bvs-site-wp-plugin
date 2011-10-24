@@ -48,5 +48,7 @@
                 </ul>
             </div>
         </div>
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Sub-header") ) :  endif; ?>
+</div>
     
 <!-- end header -->
