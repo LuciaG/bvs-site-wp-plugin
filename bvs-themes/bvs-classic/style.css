@@ -247,10 +247,20 @@ Author: BIREME (DGI)
 							font-size: 90%;
 							display: inline-block;
 						}
-						
+/*By Lucia Garcia*/						
 /*Estilo de breadcrumb*/
 #sidebar   
 {
- float: left;
-  width: 90%;
+   float: left;
+   width: 90%;
+}
+/*Estilo de resultado de busqueda*/
+.item-resumen
+{
+   margin-left: 20px;	
+}
+
+.buscadorbvs-result-item
+{
+    line-height: 14px;
 }
