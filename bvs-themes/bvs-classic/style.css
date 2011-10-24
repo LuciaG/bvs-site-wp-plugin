@@ -247,3 +247,10 @@ Author: BIREME (DGI)
 							font-size: 90%;
 							display: inline-block;
 						}
+						
+/*Estilo de breadcrumb*/
+#sidebar   
+{
+ float: left;
+  width: 90%;
+}
