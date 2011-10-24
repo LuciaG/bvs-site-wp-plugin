@@ -53,4 +53,13 @@ if ( function_exists('register_sidebar') )
         add_image_size('small_highlight', 60, 40, true);
         add_image_size('icon', 16, 16, true);
 	}
+	
+if ( function_exists('register_sidebar') )
+register_sidebar(array(
+'name' => 'Sub-header',
+'before_widget' => '<div>',
+'after_widget' => '</div>',
+'before_title' => '',
+'after_title' => '',
+));
 ?>
